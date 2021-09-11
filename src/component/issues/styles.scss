@@ -1,0 +1,133 @@
+$gray1: #0f1e36;
+$green1: #2f904f;
+$border1: #dadada;
+$white1: #ffffff;
+$black1: #000000;
+$margin-block: 25px 0;
+
+.main-layout {
+  margin: 0 25px;
+
+  .loading-block {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: $black1;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-block {
+    margin: $margin-block;
+
+    .ant-col {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon {
+      font-size: 20px;
+      color: $gray1;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    .search-input {
+      padding-left: 3px;
+      width: 100%;
+      font-size: 12px;
+      outline: none;
+      border: none;
+    }
+  }
+
+  .filter-block {
+    margin: $margin-block;
+
+    .genre-list {
+      margin-top: 15px;
+      display: block;
+
+      .genre-item {
+        float: left;
+        padding: 8px 16px;
+        margin: 5px 12px 10px 0px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border: 1px solid $border1;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &.active {
+          background: $green1;
+          color: $white1;
+        }
+      }
+    }
+  }
+
+  .result-block {
+    .item-col {
+      margin-top: 15px;
+      justify-content: center;
+    }
+    .item {
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 15px;
+
+      &:hover {
+        cursor: pointer;
+        background: #f8f8f8;
+      }
+      .row {
+        display: flex;
+      }
+  
+      .label {
+        border-radius: 10px;
+        background: #ccc;
+        display: block;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 0 10px;
+        margin-left: 10px;
+      }
+
+      .state {
+        font-weight: bold;
+        margin-bottom: 5px;
+        .open {
+          color: green;
+        }
+        .close {
+          color: red;
+        }
+      }
+
+      .description {
+        margin-top: 5px;
+      }
+
+    }
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: $gray1;
+  }
+}
