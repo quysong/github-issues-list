@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github-issues-list/static/css/main.df375117.chunk.css",
+    "main.js": "/github-issues-list/static/js/main.9c387ea1.chunk.js",
+    "main.js.map": "/github-issues-list/static/js/main.9c387ea1.chunk.js.map",
+    "runtime-main.js": "/github-issues-list/static/js/runtime-main.ee286361.js",
+    "runtime-main.js.map": "/github-issues-list/static/js/runtime-main.ee286361.js.map",
+    "static/css/2.c51d807b.chunk.css": "/github-issues-list/static/css/2.c51d807b.chunk.css",
+    "static/js/2.84519cc4.chunk.js": "/github-issues-list/static/js/2.84519cc4.chunk.js",
+    "static/js/2.84519cc4.chunk.js.map": "/github-issues-list/static/js/2.84519cc4.chunk.js.map",
+    "static/js/3.fbb1b25f.chunk.js": "/github-issues-list/static/js/3.fbb1b25f.chunk.js",
+    "static/js/3.fbb1b25f.chunk.js.map": "/github-issues-list/static/js/3.fbb1b25f.chunk.js.map",
+    "index.html": "/github-issues-list/index.html",
+    "static/css/2.c51d807b.chunk.css.map": "/github-issues-list/static/css/2.c51d807b.chunk.css.map",
+    "static/css/main.df375117.chunk.css.map": "/github-issues-list/static/css/main.df375117.chunk.css.map",
+    "static/js/2.84519cc4.chunk.js.LICENSE.txt": "/github-issues-list/static/js/2.84519cc4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee286361.js",
+    "static/css/2.c51d807b.chunk.css",
+    "static/js/2.84519cc4.chunk.js",
+    "static/css/main.df375117.chunk.css",
+    "static/js/main.9c387ea1.chunk.js"
+  ]
+}
